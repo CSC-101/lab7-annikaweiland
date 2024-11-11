@@ -7,7 +7,7 @@ def arg_convert_total(input: sys.argv):
     floats = []
     for i in input:
         num = convert.str_to_float(i)
-        floats.append(i)
+        floats.append(num)
     for i in floats:
         if i is not None:
             total = total + i
