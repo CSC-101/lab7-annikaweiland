@@ -2,7 +2,7 @@
 import sys
 import convert
 
-def arg_convert_total(input: sys.argv):
+def arg_convert_total(input: list[str]):
     total = 0
     floats = []
     for i in input:
